@@ -10,7 +10,7 @@ import android.widget.Toast;
 public class SecureUtil {
 
     static {
-        System.loadLibrary("native-lib");
+        System.loadLibrary("lmadlib");
     }
 
     public static byte[] encryptData(byte[] data) {

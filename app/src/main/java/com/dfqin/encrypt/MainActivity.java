@@ -16,7 +16,7 @@ import javax.crypto.spec.SecretKeySpec;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
     static {
-        System.loadLibrary("native-lib");
+        System.loadLibrary("lmadlib");
     }
 
 
