@@ -36,8 +36,8 @@ extern bool isDebug;
 #define PACKAGE_FRONT "com.dfqin."//app packageName 前半部分
 #define PACKAGE_END "encrypt"  // app packageName 后半部分
 
-#define SIGN_FRONT_DEBUG "3082014602010130" //debug签名的第8至第15位
-#define SIGN_END_DEBUG "c46854c5f4b1aeb2"   //debug签名的倒数第15位至倒数第8位
+#define SIGN_FRONT_DEBUG "3082022fa0030201" //debug签名的第8至第15位
+#define SIGN_END_DEBUG "9a1af2c69f72a67d"   //debug签名的倒数第15位至倒数第8位
 
 #define SIGN_FRONT_RELEASE "308201bca0030201" //release签名的第8至第15位
 #define SIGN_END_RELEASE   "9cefd2ac8c1e9db6" //release签名的倒数第15位至倒数第8位
